@@ -48,6 +48,8 @@ import antigravityIcon from "../assets/Icons/antigravity.svg";
 import makeIcon from "../assets/Icons/make.svg";
 import fastapiIcon from "../assets/Icons/fastapi.svg";
 import restapiIcon from "../assets/Icons/restapi.svg";
+import gitIcon from "../assets/Icons/git.svg";
+import githubIcon from "../assets/Icons/github.svg";
 
 export interface Tech {
   name: string;
@@ -250,9 +252,16 @@ export const technologies: Record<string, Tech[]> = {
       description: "Advanced AI agent engineering environment",
     },
     {
-      name: "Git & GitHub",
+      name: "Git",
+      icon: SiGit,
+      imgSrc: gitIcon,
+      description: "Distributed version control system",
+    },
+    {
+      name: "GitHub",
       icon: SiGithub,
-      description: "Version control, CI/CD, and repository management",
+      imgSrc: githubIcon,
+      description: "Cloud repository hosting, code collaboration, and CI/CD",
     },
   ],
 };
