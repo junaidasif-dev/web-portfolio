@@ -38,55 +38,41 @@ type CategoryItem = {
   gradient: string;
 };
 
-// --- Strict Data Mapping ---
 const servicesData: CategoryItem[] = [
   {
-    id: "build",
-    title: "Build",
-    tagline: "Modern Digital Experiences",
-    gradient: "from-blue-500 to-cyan-400",
+    id: "agents",
+    title: "AI Agents & Systems",
+    tagline: "Autonomous Business Workforce",
+    gradient: "from-blue-500 to-indigo-600",
     services: [
-      { title: "Frontend Development", icon: Code },
-      { title: "Backend Development", icon: Server },
-      { title: "Full-Stack Web/App Development", icon: Globe },
-      { title: "SaaS MVP Development", icon: Rocket },
+      { title: "Autonomous Sales Outreach & Lead Qualification", icon: Bot },
+      { title: "AI Recruitment & SMS Interview Automation", icon: Cpu },
+      { title: "Leave Management & Operational Absence Bots", icon: Zap },
+      { title: "Slack & Mattermost Custom Recruiter Assistants", icon: MessageSquare },
     ],
   },
   {
-    id: "scale",
-    title: "Scale & Improve",
-    tagline: "Optimization & Quality",
+    id: "automation",
+    title: "n8n Workflow Automation",
+    tagline: "Connecting Tools & Eliminating Manual Work",
     gradient: "from-purple-500 to-pink-500",
     services: [
-      { title: "System Design & Architecture", icon: Layers },
-      { title: "Code Refactoring & Optimization", icon: Wrench },
-      { title: "Bug Fixing & Feature Enhancement", icon: Bug },
-      { title: "Ongoing Maintenance & Support", icon: History },
+      { title: "Multi-System n8n Enterprise Pipeline Design", icon: Layers },
+      { title: "Real-Time CRM & Database Sync (StaffHive/HubSpot)", icon: Server },
+      { title: "Bulk Document Ingestion & Apache Tika Parsing", icon: Wrench },
+      { title: "Error Handling, Audit Logging & Alerting", icon: Bug },
     ],
   },
   {
-    id: "ai",
-    title: "AI & Automation",
-    tagline: "Intelligent Solutions",
-    gradient: "from-amber-400 to-orange-500",
-    services: [
-      { title: "AI Chatbots & Conversational Agents", icon: Cpu },
-      {
-        title: "AI Feature Integration into Web & Mobile Apps",
-        icon: LayoutDashboard,
-      },
-      { title: "Automated AI Workflows & n8n Integrations", icon: Zap },
-    ],
-  },
-  {
-    id: "guidance",
-    title: "Guidance & Quality",
-    tagline: "Expertise & Support",
+    id: "rag",
+    title: "RAG & Knowledge Systems",
+    tagline: "Zero-Hallucination AI Intelligence",
     gradient: "from-emerald-400 to-teal-500",
     services: [
-      { title: "Architecture & Technical Consulting", icon: MessageSquare },
-      { title: "Quality Assurance & Testing", icon: Search },
-      { title: "Developer Mentorship & Coaching", icon: GraduationCap },
+      { title: "PostgreSQL + pgvector Semantic Search Setup", icon: Search },
+      { title: "Pinecone & Vector Database Architecture", icon: Code },
+      { title: "Source-Backed Document & PDF Q&A Engines", icon: LayoutDashboard },
+      { title: "Streamlit & Web UI Knowledge Dashboards", icon: Rocket },
     ],
   },
 ];

@@ -109,84 +109,68 @@ const Footer = () => {
             </div>
 
             <div className="footer-column">
-              <h4 className="footer-heading">Go Deeper</h4>
+              <h4 className="footer-heading">Navigation</h4>
               <div className="footer-divider"></div>
               <ul className="footer-links">
                 <li>
-                  <a
-                    href="/about"
-                    onClick={(e) => {
-                      e.preventDefault();
-                      navigate("/about");
-                    }}
-                  >
-                    About
-                  </a>
+                  <a href="#techstack">Tech Stack</a>
                 </li>
                 <li>
-                  <a
-                    href="/team"
-                    onClick={(e) => {
-                      e.preventDefault();
-                      navigate("/team");
-                    }}
-                  >
-                    Team
-                  </a>
+                  <a href="#services">Services</a>
+                </li>
+                <li>
+                  <a href="#projects">Projects</a>
+                </li>
+                <li>
+                  <a href="#experience">Experience</a>
                 </li>
               </ul>
             </div>
 
             <div className="footer-column">
-              <h4 className="footer-heading">SOCIAL</h4>
+              <h4 className="footer-heading">SOCIAL & PLATFORMS</h4>
               <div className="footer-divider"></div>
               <ul className="footer-links">
                 <li>
-                  <a href="https://www.instagram.com/nomii.official">
-                    Instagram
-                  </a>
+                  <a href="https://github.com/junaidasif-dev" target="_blank" rel="noopener noreferrer">GitHub</a>
                 </li>
                 <li>
-                  <a href="https://x.com/home">X</a>
+                  <a href="https://www.linkedin.com/in/junaidasifdev/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
                 </li>
                 <li>
-                  <a href="https://www.linkedin.com/in/nouman-me/">LinkedIn</a>
-                </li>
-                <li>
-                  <a href="https://github.com/iNoumanMalik">GitHub</a>
+                  <a href="https://www.upwork.com/freelancers/~018d80300a5644d28f?mp_source=share" target="_blank" rel="noopener noreferrer">Upwork</a>
                 </li>
               </ul>
             </div>
 
             <div className="footer-column">
-              <h4 className="footer-heading">WANT TO SEE MY WORK?</h4>
+              <h4 className="footer-heading">CONTACT DIRECTLY</h4>
               <div className="footer-divider"></div>
               <ul className="footer-links">
                 <li>
                   <a
-                    href="mailto:inoumanmalik@outlook.com"
+                    href="mailto:junaidasifdev@gmail.com"
                     className="copyable"
                     title="Click to copy email"
                     onClick={(e) => {
                       e.preventDefault();
-                      handleCopy("inoumanmalik@outlook.com");
+                      handleCopy("junaidasifdev@gmail.com");
                     }}
                   >
-                    inoumanmalik@outlook.com
+                    junaidasifdev@gmail.com
                   </a>
                 </li>
                 <li>
                   <a
-                    href="tel:+923144221693"
+                    href="tel:+923175724870"
                     className="copyable"
                     title="Click to copy phone"
                     onClick={(e) => {
                       e.preventDefault();
-                      handleCopy("+92 314 4221693");
+                      handleCopy("+92 317 5724870");
                     }}
                   >
-                    +92 314 4221693
-                    
+                    +92 317 5724870
                   </a>
                 </li>
               </ul>
@@ -197,22 +181,22 @@ const Footer = () => {
             <div className="footer-divider"></div>
             <div className="footer-bottom-content">
               <p>
-                &copy; 2025 Nouman. <br /> All rights reserved.
+                &copy; {new Date().getFullYear()} Junaid Asif. <br /> All rights reserved.
               </p>
               <p>
-                Islamabad
+                Islamabad, PK
                 <br />
                 {time.toLocaleTimeString()}
               </p>
               <p>
-                I write code, break it, then fix it (sometimes).
+                Building AI systems that work while you sleep.
                 <br />
                 ////////////////////////{" "}
               </p>
             </div>
           </div>
         </div>
-        <div className="background-signature">Nouman</div>
+        <div className="background-signature">Junaid</div>
       </footer>
     </>
   );

@@ -210,15 +210,15 @@ export default function ContactSection() {
               </div>
             </div>
 
-            {/* Structured Footer Links (LinkedIn, GitHub, Location, Direct) */}
+            {/* Structured Footer Links (LinkedIn, GitHub, Upwork, Location, Direct) */}
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 pt-10 md:pt-12 border-t border-gray-200 dark:border-white/5">
               <div className="space-y-3">
                 <h4 className="text-[10px] font-mono text-gray-500 dark:text-white/20 uppercase tracking-widest">
-                  Social
+                  Social & Platforms
                 </h4>
                 <div className="flex flex-col gap-2">
                   <a
-                    href="https://github.com/iNoumanMalik"
+                    href="https://github.com/junaidasif-dev"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-sm text-[#646cff] hover:text-blue-400 transition-colors flex items-center gap-2"
@@ -226,12 +226,20 @@ export default function ContactSection() {
                     GitHub <span className="text-[10px]">↗</span>
                   </a>
                   <a
-                    href="https://www.linkedin.com/in/nouman-malik-me/"
+                    href="https://www.linkedin.com/in/junaidasifdev/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-sm text-[#646cff] hover:text-blue-400 transition-colors flex items-center gap-2"
                   >
                     LinkedIn <span className="text-[10px]">↗</span>
+                  </a>
+                  <a
+                    href="https://www.upwork.com/freelancers/~018d80300a5644d28f?mp_source=share"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-sm text-[#646cff] hover:text-blue-400 transition-colors flex items-center gap-2"
+                  >
+                    Upwork <span className="text-[10px]">↗</span>
                   </a>
                 </div>
               </div>
@@ -244,19 +252,19 @@ export default function ContactSection() {
                   Islamabad, Pakistan
                   <br />
                   <span className="text-[10px] opacity-50 uppercase tracking-tighter">
-                    UTC +5
+                    UTC +5 (Global Remote)
                   </span>
                 </p>
               </div>
 
               <div className="space-y-3">
                 <h4 className="text-[10px] font-mono text-gray-500 dark:text-white/20 uppercase tracking-widest">
-                  Direct
+                  Direct Contact
                 </h4>
                 <p className="text-sm text-gray-600 dark:text-white/60">
-                  inoumanmalik@outlook.com
+                  junaidasifdev@gmail.com
                 </p>
-                <p className="text-sm text-gray-600 dark:text-white/60">+92 314 4221693</p>
+                <p className="text-sm text-gray-600 dark:text-white/60">+92 317 5724870</p>
               </div>
 
               <div className="space-y-3">
@@ -265,7 +273,7 @@ export default function ContactSection() {
                 </h4>
                 <p className="text-sm text-emerald-600 dark:text-emerald-400/80 flex items-center gap-2">
                   <span className="w-1.5 h-1.5 rounded-full bg-emerald-500" />
-                  Open for Projects
+                  Available for Projects
                 </p>
               </div>
             </div>

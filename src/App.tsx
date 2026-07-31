@@ -9,8 +9,7 @@ import Footer from "./components/Footer";
 import FloatingActionButton from "./components/FloatingActionButton";
 
 const Home = lazy(() => import("./pages/Home"));
-const About = lazy(() => import("./pages/About"));
-const Team = lazy(() => import("./pages/Team"));
+const ProjectCaseStudy = lazy(() => import("./pages/ProjectCaseStudy"));
 const NotFound = lazy(() => import("./pages/NotFound"));
 
 gsap.registerPlugin(ScrollTrigger);
@@ -53,8 +52,7 @@ function App() {
       <Suspense fallback={null}>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/team" element={<Team />} />
+          <Route path="/project/:slug" element={<ProjectCaseStudy />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </Suspense>

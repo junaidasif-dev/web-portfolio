@@ -16,13 +16,18 @@ import {
 
 const CategoryIcons: Record<string, React.ComponentType<{ className?: string }>> = {
   all: (props) => <Grid className="w-5 h-5" {...props} />,
-  frontend: (props) => <Monitor className="w-5 h-5" {...props} />,
-  backend: (props) => <Server className="w-5 h-5" {...props} />,
-  database: (props) => <Database className="w-5 h-5" {...props} />,
-  mobile: (props) => <Smartphone className="w-5 h-5" {...props} />,
-  tools: (props) => <Wrench className="w-5 h-5" {...props} />,
-  languages: (props) => <Code className="w-5 h-5" {...props} />,
-  other: (props) => <CircleEllipsis className="w-5 h-5" {...props} />,
+  ai_agents: (props) => <Monitor className="w-5 h-5" {...props} />,
+  automation: (props) => <Wrench className="w-5 h-5" {...props} />,
+  rag_data: (props) => <Database className="w-5 h-5" {...props} />,
+  core_stack: (props) => <Code className="w-5 h-5" {...props} />,
+};
+
+const CategoryLabels: Record<string, string> = {
+  all: "All",
+  ai_agents: "AI & Agents",
+  automation: "Automation & APIs",
+  rag_data: "RAG & Data",
+  core_stack: "Core Stack",
 };
 
 const CategoryPill = ({ category, selected, onClick }: {
@@ -31,8 +36,7 @@ const CategoryPill = ({ category, selected, onClick }: {
   onClick: () => void
 }) => {
   const Icon = CategoryIcons[category] || CategoryIcons['all'];
-  const isAll = category === 'all';
-  const label = isAll ? 'All' : category;
+  const label = CategoryLabels[category] || (category === 'all' ? 'All' : category);
 
   return (
     <motion.button

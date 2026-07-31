@@ -49,10 +49,10 @@ const FloatingActionButton = () => {
       icon: <FaWhatsapp size={20} />,
       onClick: () => {
         const message = encodeURIComponent(
-          "Hi Nouman, I came across your portfolio and would like to connect.",
+          "Hi Junaid, I came across your portfolio and would like to connect.",
         );
         window.open(
-          `https://wa.me/923144221693?text=${message}`,
+          `https://wa.me/923175724870?text=${message}`,
           "_blank",
           "noopener,noreferrer",
         );
@@ -62,7 +62,7 @@ const FloatingActionButton = () => {
       label: copiedEmail ? "Copied!" : "Email",
       icon: <Mail size={20} />,
       onClick: async () => {
-        const email = "inoumanmalik@outlook.com";
+        const email = "junaidasifdev@gmail.com";
 
         try {
           await navigator.clipboard.writeText(email);
@@ -76,7 +76,7 @@ const FloatingActionButton = () => {
         }
         setTimeout(() => {
           window.location.href =
-            "mailto:inoumanmalik@outlook.com?subject=Portfolio Inquiry&body=Hi Nouman, I saw your portfolio and would like to connect.";
+            "mailto:junaidasifdev@gmail.com?subject=Portfolio Inquiry&body=Hi Junaid, I saw your portfolio and would like to connect.";
         }, 500);
       },
     },
@@ -89,11 +89,11 @@ const FloatingActionButton = () => {
       label: "Resume",
       icon: <FileText size={20} />,
       onClick: () => {
-        const pdfUrl = "/Nouman.pdf";
+        const pdfUrl = "/Junaid-AI-Resume.pdf";
 
         const link = document.createElement("a");
         link.href = pdfUrl;
-        link.download = "Nouman.pdf";
+        link.download = "Junaid-AI-Resume.pdf";
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);

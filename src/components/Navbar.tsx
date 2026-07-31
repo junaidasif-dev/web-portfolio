@@ -58,16 +58,13 @@ const Navbar = () => {
 
   const navItems = ["TechStack", "Services", "Projects", "Experience"];
 
-  const handleRouteNavigation = (path: "/" | "/about") => {
+  const handleRouteNavigation = () => {
     setIsMobileMenuOpen(false);
-    if (location.pathname !== path) {
-      navigate(path);
+    if (location.pathname !== "/") {
+      navigate("/");
       return;
     }
-
-    if (path === "/") {
-      gsap.to(window, { duration: 0.8, scrollTo: 0, ease: "power2.inOut" });
-    }
+    gsap.to(window, { duration: 0.8, scrollTo: 0, ease: "power2.inOut" });
   };
 
   return (
@@ -86,7 +83,7 @@ const Navbar = () => {
             decoding="async"
             className="w-8 h-8 object-contain"
           />
-          <span onClick={handleHomeClick} className="font-semibold tracking-tight hidden sm:block">portfolio</span>
+          <span onClick={handleHomeClick} className="font-semibold tracking-tight hidden sm:block">Junaid Asif</span>
         </div>
 
         {/* Mobile Nav Toggle */}
@@ -137,17 +134,10 @@ const Navbar = () => {
         <div className="p-3 flex flex-col gap-1">
           <button
             type="button"
-            onClick={() => handleRouteNavigation("/")}
+            onClick={() => handleRouteNavigation()}
             className="px-3 py-3 rounded-xl text-sm font-semibold text-left text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-white/10 uppercase tracking-wider"
           >
             Home
-          </button>
-          <button
-            type="button"
-            onClick={() => handleRouteNavigation("/about")}
-            className="px-3 py-3 rounded-xl text-sm font-semibold text-left text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-white/10 uppercase tracking-wider"
-          >
-            About
           </button>
 
           {navItems.map((item) => (

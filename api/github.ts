@@ -5,7 +5,7 @@ export const config = {
 };
 
 export default async function handler() {
-    const username = "iNoumanMalik";
+    const username = "junaidasif-dev";
     const GITHUB_TOKEN = process.env.GITHUB_TOKEN;
 
     if (!GITHUB_TOKEN) {

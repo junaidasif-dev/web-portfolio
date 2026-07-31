@@ -17,49 +17,44 @@ interface Experience {
 const experiences: Experience[] = [
   {
     id: 1,
-    role: "GenAI Backend Intern",
-    company: "Emumba",
-    period: "Jan 2026 - Present",
-    location: "Islamabad, Pakistan (On-site)",
-    description: "Building and supporting Generative AI–powered backend systems in a collaborative, mentorship-driven environment.",
+    role: "AI Automation Engineer",
+    company: "Axcess Staffing Solutions",
+    period: "2025 - Present",
+    location: "Remote / Canada",
+    description: "Designing and deploying production multi-agent AI systems, recruitment automation pipelines, and RAG architectures.",
     responsibilities: [
-      "Assisting in the development and integration of GenAI backend services and APIs",
-      "Supporting backend workflows for data processing, prompt handling, and AI response management",
-      "Performance optimization including latency reduction and token usage management",
-      "Collaborating with cross-functional teams to enhance GenAI features"
+      "Architected SMS candidate interviewing platform processing automated multi-question screening flows",
+      "Engineered PostgreSQL + pgvector RAG database for zero-hallucination document Q&A",
+      "Built Mattermost recruiter AI assistant ('Allie') for instant semantic candidate matching",
+      "Deployed automated SMS leave management system with natural language intent classification"
     ],
-    tech: ["Generative AI", "Python", "Node.js", "Backend Systems", "APIs"],
-    type: "Internship"
+    projects: [
+      "Axcess Recruitment AI Platform",
+      "Axcess AI Leave Management System",
+      "AI Ingestion & Training Engine"
+    ],
+    tech: ["n8n", "OpenAI", "PostgreSQL", "pgvector", "OpenPhone SMS", "Mattermost", "Apache Tika"],
+    type: "Contract / Project"
   },
   {
     id: 2,
-    role: "Web Developer",
-    company: "Computerized AI",
-    period: "Feb 2025 - Present",
-    location: "Islamabad, Pakistan (Remote)",
-    description: "Full Stack Developer at an AI-specialized software house, building dynamic, AI-driven web applications.",
-    projects: [
-      "Opto Project – Hospital management system",
-      "ZeroLine – AI voice agent portal",
-      "FitGrow – AI gym lead-gen landing page",
-      "Abtahi Counselling – Mental health website"
-    ],
-    tech: ["React.js", "TypeScript", "Tailwind CSS", "Zustand", "NestJS", "MySQL"],
-    type: "Full-time"
-  },
-  {
-    id: 3,
-    role: "Frontend Web Developer",
-    company: "Zmung Client",
-    period: "May 2025 - Dec 2025",
-    location: "Islamabad, Pakistan (Remote)",
-    description: "Designed and developed multiple websites tailored to business domains including Real Estate and Creative Agencies.",
+    role: "AI Systems & Automation Developer",
+    company: "Independent Client Solutions",
+    period: "2024 - Present",
+    location: "Remote",
+    description: "Building custom AI agents, automated sales pipelines, and n8n enterprise workflows for international clients.",
     responsibilities: [
-      "Developed responsive UIs using React.js and Tailwind CSS",
-      "Ensured performance, accessibility, and cross-device compatibility",
-      "Translated business requirements into functional web solutions"
+      "Developed autonomous AI sales bot with 2-way StaffHive/HubSpot CRM sync & Google Meet scheduling",
+      "Created RAG Knowledge Assistant apps with Pinecone, LangChain, and Streamlit",
+      "Architected 20+ production n8n business automation workflows connecting Notion, Slack, and PostgreSQL",
+      "Implemented strict anti-detection & humanized delay algorithms for automated outreach"
     ],
-    tech: ["React.js", "TypeScript", "Tailwind CSS", "SEO", "UX/UI"],
+    projects: [
+      "AI Sales Bot with Live CRM Sync",
+      "RAG Knowledge Assistant",
+      "n8n Business Automation Suite"
+    ],
+    tech: ["Python", "n8n", "LangChain", "Pinecone", "Groq", "Streamlit", "CRM APIs"],
     type: "Freelance"
   }
 ];
