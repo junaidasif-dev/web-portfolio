@@ -12,6 +12,7 @@ import {
   SiMysql,
   SiSupabase,
   SiVercel,
+  SiFastapi,
 } from "react-icons/si";
 import { FaBrain, FaRobot, FaDatabase, FaCogs, FaTools, FaCode } from "react-icons/fa";
 import { ComponentType } from "react";
@@ -43,7 +44,10 @@ import tensorflowIcon from "../assets/Icons/tensorflow.svg";
 import vercelIcon from "../assets/Icons/vercel.svg";
 import mysqlIcon from "../assets/Icons/mysql.svg";
 import jsonIcon from "../assets/Icons/json.svg";
-import antigravityIcon from "../assets/Icons/antigravity.svg";
+import antigravityIcon from "../assets/Icons/antigravity.png";
+import makeIcon from "../assets/Icons/make.svg";
+import fastapiIcon from "../assets/Icons/fastapi.svg";
+import restapiIcon from "../assets/Icons/restapi.svg";
 
 export interface Tech {
   name: string;
@@ -109,6 +113,12 @@ export const technologies: Record<string, Tech[]> = {
       icon: FaCogs,
       imgSrc: n8nIcon,
       description: "Fair-code workflow automation for enterprise integrations",
+    },
+    {
+      name: "Make.com",
+      icon: FaCogs,
+      imgSrc: makeIcon,
+      description: "Visual platform for automating workflows, apps, and systems",
     },
     {
       name: "Notion",
@@ -198,6 +208,18 @@ export const technologies: Record<string, Tech[]> = {
       description: "Core language for AI backend, data pipelines, and RAG",
     },
     {
+      name: "FastAPI",
+      icon: SiFastapi,
+      imgSrc: fastapiIcon,
+      description: "High-performance Python web framework for building APIs",
+    },
+    {
+      name: "REST APIs",
+      icon: FaTools,
+      imgSrc: restapiIcon,
+      description: "RESTful architecture, webhooks, and microservice communication",
+    },
+    {
       name: "C++",
       icon: SiCplusplus,
       imgSrc: cplusplusIcon,
@@ -225,7 +247,7 @@ export const technologies: Record<string, Tech[]> = {
       name: "Antigravity",
       icon: FaTools,
       imgSrc: antigravityIcon,
-      description: "Advanced AI coding assistant environment",
+      description: "Advanced AI agent engineering environment",
     },
     {
       name: "Git & GitHub",

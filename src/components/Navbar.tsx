@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
-// import { useTheme } from "../context/ThemeContext";
-import logo from "../assets/layers-ic.png";
+import logo from "/prf-removebg.png";
 import gsap from "gsap";
 import { useNavigate, useLocation } from "react-router-dom";
 import { ScrollToPlugin } from "gsap/ScrollToPlugin";
