@@ -1,4 +1,4 @@
-# 🚀 Junaid Asif — AI Automation & Agent Engineer Portfolio
+# 🚀 Junaid Asif — AI & Automation Engineer Portfolio
 
 A modern, interactive portfolio showcasing production work in **AI Agents, Multi-Agent Architecture, n8n Workflow Automation, and RAG Systems**.
 

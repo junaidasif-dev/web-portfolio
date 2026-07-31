@@ -203,7 +203,7 @@ export default function ScrollytellingHero() {
           <div className="flex items-center gap-3">
             <span className="w-8 h-px bg-blue-500" />
             <span className="text-blue-600 dark:text-blue-400 font-mono text-[10px] sm:text-xs uppercase tracking-[0.3em] md:tracking-[0.5em]">
-              AI Automation Engineer
+              AI & Automation Engineer
             </span>
           </div>
           <h1 className="text-5xl sm:text-6xl md:text-9xl font-black leading-[0.9] md:leading-[0.85] tracking-tighter uppercase">
