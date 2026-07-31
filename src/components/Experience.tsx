@@ -17,45 +17,62 @@ interface Experience {
 const experiences: Experience[] = [
   {
     id: 1,
-    role: "AI Automation Engineer",
-    company: "Axcess Staffing Solutions",
-    period: "2025 - Present",
-    location: "Remote / Canada",
-    description: "Designing and deploying production multi-agent AI systems, recruitment automation pipelines, and RAG architectures.",
+    role: "AI & Automation Engineer",
+    company: "Axcess TMS",
+    period: "Jan 2026 – Present",
+    location: "Calgary, Alberta, Canada (Remote)",
+    description: "Architecting multi-agent sales automation pipelines, CRM/ATS recruitment AI engines, and context-aware RAG assistants.",
     responsibilities: [
-      "Architected SMS candidate interviewing platform processing automated multi-question screening flows",
-      "Engineered PostgreSQL + pgvector RAG database for zero-hallucination document Q&A",
-      "Built Mattermost recruiter AI assistant ('Allie') for instant semantic candidate matching",
-      "Deployed automated SMS leave management system with natural language intent classification"
+      "Architected multi-agent sales automation & lead outreach pipeline in n8n, reducing manual overhead by 80%",
+      "Engineered AI recruitment core for StaffHive CRM/ATS, implementing SMS screening via QUO API & Mattermost reporting",
+      "Designed context-aware RAG assistant with dynamic SQL query generation for instant recruiter ATS searching",
+      "Established 99.9% uptime error-handling, fallback, and alert systems for production workflows"
     ],
     projects: [
       "Axcess Recruitment AI Platform",
-      "Axcess AI Leave Management System",
-      "AI Ingestion & Training Engine"
+      "Axcess AI Sales Outreach Pipeline",
+      "StaffHive RAG & SQL Query Engine"
     ],
-    tech: ["n8n", "OpenAI", "PostgreSQL", "pgvector", "OpenPhone SMS", "Mattermost", "Apache Tika"],
-    type: "Contract / Project"
+    tech: ["n8n", "OpenAI", "LangChain", "RAG", "StaffHive CRM", "QUO API", "Mattermost", "SQL"],
+    type: "Contract / Remote"
   },
   {
     id: 2,
-    role: "AI Systems & Automation Developer",
-    company: "Independent Client Solutions",
-    period: "2024 - Present",
-    location: "Remote",
-    description: "Building custom AI agents, automated sales pipelines, and n8n enterprise workflows for international clients.",
+    role: "AI Automation Engineer",
+    company: "Buildables",
+    period: "Jul 2025 – Present",
+    location: "Pakistan (Remote)",
+    description: "Architecting cross-platform automation pipelines, onboarding systems, and candidate lifecycle orchestration.",
     responsibilities: [
-      "Developed autonomous AI sales bot with 2-way StaffHive/HubSpot CRM sync & Google Meet scheduling",
-      "Created RAG Knowledge Assistant apps with Pinecone, LangChain, and Streamlit",
-      "Architected 20+ production n8n business automation workflows connecting Notion, Slack, and PostgreSQL",
-      "Implemented strict anti-detection & humanized delay algorithms for automated outreach"
+      "Architected end-to-end automation pipelines integrating Notion, Google Sheets, and Slack APIs",
+      "Designed multi-pathway candidate evaluation and lifecycle orchestration systems in n8n for 6 educational programs",
+      "Deployed 13+ advanced n8n automation workflows featuring complex branching, real-time sync, and error handling for 100+ applicants monthly"
     ],
     projects: [
-      "AI Sales Bot with Live CRM Sync",
-      "RAG Knowledge Assistant",
-      "n8n Business Automation Suite"
+      "Buildables n8n Automation Suite (13+ Workflows)",
+      "Candidate Lifecycle & Onboarding Pipeline"
     ],
-    tech: ["Python", "n8n", "LangChain", "Pinecone", "Groq", "Streamlit", "CRM APIs"],
-    type: "Freelance"
+    tech: ["n8n", "Notion API", "Slack API", "Google Sheets API", "JSON", "Git"],
+    type: "Remote"
+  },
+  {
+    id: 3,
+    role: "AI Intern",
+    company: "Siber Koza (NASTP)",
+    period: "Apr 2025 – Jun 2025",
+    location: "Rawalpindi, Pakistan (On-site)",
+    description: "Developed voice-based AI assistants and NLP text classification pipelines at the National Aerospace Science & Technology Park.",
+    responsibilities: [
+      "Developed real-time voice customer assistant at NASTP using LangChain, OpenAI API, and RAG architectures",
+      "Built conversational LLM agents featuring robust session memory, semantic similarity, and multi-turn dialog tracking",
+      "Implemented NLP pipeline utilizing BERT embeddings and LSTM networks for unstructured text classification & JSON data parsing"
+    ],
+    projects: [
+      "NASTP Real-Time Voice AI Assistant",
+      "BERT & LSTM Text Classification Pipeline"
+    ],
+    tech: ["LangChain", "OpenAI", "RAG", "Python", "PyTorch", "TensorFlow", "BERT", "JSON"],
+    type: "Internship"
   }
 ];
 

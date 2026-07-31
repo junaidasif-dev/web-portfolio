@@ -189,7 +189,7 @@ const Footer = () => {
                 {time.toLocaleTimeString()}
               </p>
               <p>
-                Building AI systems that work while you sleep.
+                Architecting production multi-agent systems, RAG pipelines, and enterprise automations.
                 <br />
                 ////////////////////////{" "}
               </p>

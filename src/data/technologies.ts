@@ -5,10 +5,15 @@ import {
   SiGit,
   SiGithub,
   SiJavascript,
-  SiTypescript,
   SiOpenai,
+  SiCplusplus,
+  SiPytorch,
+  SiTensorflow,
+  SiMysql,
+  SiSupabase,
+  SiVercel,
 } from "react-icons/si";
-import { FaBrain, FaRobot, FaDatabase, FaCogs, FaTools } from "react-icons/fa";
+import { FaBrain, FaRobot, FaDatabase, FaCogs, FaTools, FaCode } from "react-icons/fa";
 import { ComponentType } from "react";
 
 // SVG Imports
@@ -30,6 +35,15 @@ import groqIcon from "../assets/Icons/groq.svg";
 import tikaIcon from "../assets/Icons/tika.svg";
 import gmailIcon from "../assets/Icons/gmail.svg";
 import googlecalendarIcon from "../assets/Icons/googlecalendar.svg";
+import supabaseIcon from "../assets/Icons/supabase.svg";
+import vscodeIcon from "../assets/Icons/vscode.svg";
+import cplusplusIcon from "../assets/Icons/cplusplus.svg";
+import pytorchIcon from "../assets/Icons/pytorch.svg";
+import tensorflowIcon from "../assets/Icons/tensorflow.svg";
+import vercelIcon from "../assets/Icons/vercel.svg";
+import mysqlIcon from "../assets/Icons/mysql.svg";
+import jsonIcon from "../assets/Icons/json.svg";
+import antigravityIcon from "../assets/Icons/antigravity.svg";
 
 export interface Tech {
   name: string;
@@ -41,7 +55,7 @@ export interface Tech {
 export const technologies: Record<string, Tech[]> = {
   ai_agents: [
     {
-      name: "OpenAI / GPT-4",
+      name: "OpenAI",
       icon: SiOpenai,
       imgSrc: openaiIcon,
       description: "Advanced LLMs for reasoning, multi-agent systems, and function calling",
@@ -75,6 +89,18 @@ export const technologies: Record<string, Tech[]> = {
       icon: FaBrain,
       imgSrc: huggingfaceIcon,
       description: "Open-source models, embeddings, and transformer pipelines",
+    },
+    {
+      name: "PyTorch",
+      icon: SiPytorch,
+      imgSrc: pytorchIcon,
+      description: "Deep learning framework for AI research & custom models",
+    },
+    {
+      name: "TensorFlow",
+      icon: SiTensorflow,
+      imgSrc: tensorflowIcon,
+      description: "Machine learning platform for ML model development & NLP",
     },
   ],
   automation: [
@@ -134,6 +160,18 @@ export const technologies: Record<string, Tech[]> = {
       description: "Relational storage with high-performance vector search",
     },
     {
+      name: "MySQL",
+      icon: SiMysql,
+      imgSrc: mysqlIcon,
+      description: "Relational database management for structured application data",
+    },
+    {
+      name: "Supabase",
+      icon: SiSupabase,
+      imgSrc: supabaseIcon,
+      description: "Open-source Firebase alternative with PostgreSQL & realtime APIs",
+    },
+    {
       name: "Pinecone",
       icon: FaDatabase,
       imgSrc: pineconeIcon,
@@ -145,6 +183,12 @@ export const technologies: Record<string, Tech[]> = {
       imgSrc: streamlitIcon,
       description: "Rapid web UI deployment for AI knowledge apps",
     },
+    {
+      name: "JSON",
+      icon: FaCode,
+      imgSrc: jsonIcon,
+      description: "Structured data parsing, interchange, and schema validation",
+    },
   ],
   core_stack: [
     {
@@ -154,15 +198,34 @@ export const technologies: Record<string, Tech[]> = {
       description: "Core language for AI backend, data pipelines, and RAG",
     },
     {
-      name: "TypeScript",
-      icon: SiTypescript,
-      description: "Typed web and API development",
+      name: "C++",
+      icon: SiCplusplus,
+      imgSrc: cplusplusIcon,
+      description: "High-performance systems programming & algorithmic data structures",
     },
     {
       name: "Docker",
       icon: SiDocker,
       imgSrc: dockerIcon,
       description: "Containerized deployment for n8n, databases, and microservices",
+    },
+    {
+      name: "Vercel",
+      icon: SiVercel,
+      imgSrc: vercelIcon,
+      description: "Serverless web deployment & edge function hosting",
+    },
+    {
+      name: "VS Code",
+      icon: FaTools,
+      imgSrc: vscodeIcon,
+      description: "Primary development environment and IDE workspace",
+    },
+    {
+      name: "Antigravity",
+      icon: FaTools,
+      imgSrc: antigravityIcon,
+      description: "Advanced AI coding assistant environment",
     },
     {
       name: "Git & GitHub",

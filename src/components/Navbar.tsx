@@ -83,7 +83,7 @@ const Navbar = () => {
             decoding="async"
             className="w-8 h-8 object-contain"
           />
-          <span onClick={handleHomeClick} className="font-semibold tracking-tight hidden sm:block">Junaid Asif</span>
+          <span onClick={handleHomeClick} className="font-black uppercase tracking-wider text-base sm:text-lg hidden sm:block font-['Jost']">Junaid Asif</span>
         </div>
 
         {/* Mobile Nav Toggle */}
