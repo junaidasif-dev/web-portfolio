@@ -76,11 +76,11 @@ const Navbar = () => {
           <img
             src={logo}
             alt="Logo"
-            width={32}
-            height={32}
+            width={48}
+            height={48}
             loading="eager"
             decoding="async"
-            className="w-8 h-8 object-contain"
+            className="w-11 h-11 sm:w-12 sm:h-12 object-contain"
           />
           <span onClick={handleHomeClick} className="font-black uppercase tracking-wider text-base sm:text-lg hidden sm:block font-['Jost']">Junaid Asif</span>
         </div>

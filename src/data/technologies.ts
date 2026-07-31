@@ -44,7 +44,7 @@ import tensorflowIcon from "../assets/Icons/tensorflow.svg";
 import vercelIcon from "../assets/Icons/vercel.svg";
 import mysqlIcon from "../assets/Icons/mysql.svg";
 import jsonIcon from "../assets/Icons/json.svg";
-import antigravityIcon from "../assets/Icons/antigravity.png";
+import antigravityIcon from "../assets/Icons/antigravity.svg";
 import makeIcon from "../assets/Icons/make.svg";
 import fastapiIcon from "../assets/Icons/fastapi.svg";
 import restapiIcon from "../assets/Icons/restapi.svg";
