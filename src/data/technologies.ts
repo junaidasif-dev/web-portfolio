@@ -14,7 +14,7 @@ import {
   SiVercel,
   SiFastapi,
 } from "react-icons/si";
-import { FaBrain, FaRobot, FaDatabase, FaCogs, FaTools, FaCode } from "react-icons/fa";
+import { FaBrain, FaRobot, FaDatabase, FaCogs, FaTools, FaCode, FaCloud } from "react-icons/fa";
 import { ComponentType } from "react";
 
 // SVG Imports
@@ -50,6 +50,9 @@ import fastapiIcon from "../assets/Icons/fastapi.svg";
 import restapiIcon from "../assets/Icons/restapi.svg";
 import gitIcon from "../assets/Icons/git.svg";
 import githubIcon from "../assets/Icons/github.svg";
+import airtableIcon from "../assets/Icons/airtable.svg";
+import azureIcon from "../assets/Icons/azure.svg";
+import gcpIcon from "../assets/Icons/gcp.svg";
 
 export interface Tech {
   name: string;
@@ -121,6 +124,12 @@ export const technologies: Record<string, Tech[]> = {
       icon: FaCogs,
       imgSrc: makeIcon,
       description: "Visual platform for automating workflows, apps, and systems",
+    },
+    {
+      name: "Airtable",
+      icon: FaDatabase,
+      imgSrc: airtableIcon,
+      description: "Relational database & workflow automation platform",
     },
     {
       name: "Notion",
@@ -226,6 +235,18 @@ export const technologies: Record<string, Tech[]> = {
       icon: SiCplusplus,
       imgSrc: cplusplusIcon,
       description: "High-performance systems programming & algorithmic data structures",
+    },
+    {
+      name: "Microsoft Azure",
+      icon: FaCloud,
+      imgSrc: azureIcon,
+      description: "Cloud computing & enterprise AI cloud infrastructure",
+    },
+    {
+      name: "Google Cloud Platform",
+      icon: FaCloud,
+      imgSrc: gcpIcon,
+      description: "Cloud infrastructure, Vertex AI, and cloud services",
     },
     {
       name: "Docker",
