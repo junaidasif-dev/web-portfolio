@@ -71,7 +71,7 @@ const Footer = () => {
       <footer className="footer">
         <div className="container">
           <h1 className="footer-main-heading">
-            Let's build your next <br /> project together
+            Let's architect your next <br /> AI & automation system
           </h1>
           <div className="footer-content">
 
