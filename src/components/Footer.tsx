@@ -74,39 +74,6 @@ const Footer = () => {
             Let's build your next <br /> project together
           </h1>
           <div className="footer-content">
-            <div className="footer-column">
-              <h4 className="footer-heading">Primary</h4>
-              <div className="footer-divider"></div>
-              <ul className="footer-links">
-                <li>
-                  <a
-                    href="#approach"
-                    onClick={(e) => handleComingSoon(e, "Approach")}
-                  >
-                    Approach
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="#projects"
-                    // onClick={(e) => handleComingSoon(e, "Clients")}
-                  >
-                    Clients
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="#awards"
-                    onClick={(e) => handleComingSoon(e, "Awards")}
-                  >
-                    Awards
-                  </a>
-                </li>
-                <li>
-                  <a href="#services">Services</a>
-                </li>
-              </ul>
-            </div>
 
             <div className="footer-column">
               <h4 className="footer-heading">Navigation</h4>
