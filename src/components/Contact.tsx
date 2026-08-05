@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 
-const formspreeId = import.meta.env.VITE_FORMSPREE_ID;
+const formspreeId = import.meta.env.VITE_FORMSPREE_ID || "xoeaqljo";
 const formspreeUrl = `https://formspree.io/f/${formspreeId}`;
 export default function ContactSection() {
   const [formState, setFormState] = useState({
