@@ -20,7 +20,7 @@ A modern, interactive portfolio showcasing production work in **AI Agents, Multi
 
 * Python & Streamlit
 * n8n Workflow Automation Engine
-* OpenAI (GPT-4), Claude, Gemini, Groq (Llama-3)
+* OpenAI (GPT-4), Claude, Gemini, Groq
 * LangChain & Hugging Face
 * PostgreSQL + pgvector & Pinecone Vector DB
 * Docker
