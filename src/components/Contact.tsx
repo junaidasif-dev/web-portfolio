@@ -98,7 +98,7 @@ export default function ContactSection() {
       <div className="relative z-10 w-full max-w-4xl">
         <header className="mb-12 text-center">
           <span className="text-blue-400 font-mono text-[10px] uppercase tracking-[0.4em] mb-4 block">
-            Ready for Transmission
+            Work With Me
           </span>
           <h2 className="text-3xl sm:text-4xl md:text-6xl font-black tracking-tighter uppercase">
             Get in Touch
@@ -107,53 +107,45 @@ export default function ContactSection() {
 
         {!isSent ? (
           <div className="space-y-12">
-            {/* The "Command" Overlay (Independent UI Element) */}
+            {/* Professional Availability & Status Card */}
             <div className="relative group">
-              <div className="absolute -top-8 -right-4 z-30 hidden md:block w-56 p-4 bg-black/80 backdrop-blur-xl border border-white/10 rounded-2xl shadow-2xl transition-transform group-hover:translate-y-[-5px] duration-500">
+              <div className="absolute -top-8 -right-4 z-30 hidden md:block w-64 p-4 bg-black/85 backdrop-blur-xl border border-white/10 rounded-2xl shadow-2xl transition-transform group-hover:translate-y-[-5px] duration-500">
                 <div className="flex items-center gap-2 mb-3">
-                  <div className="w-1.5 h-1.5 rounded-full bg-blue-500 animate-pulse" />
-                  <span className="text-[9px] font-mono text-white/40 uppercase tracking-widest">
-                    Active_Session
+                  <div className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
+                  <span className="text-[9px] font-mono text-emerald-400 uppercase tracking-widest font-semibold">
+                    Open to Hire
                   </span>
                 </div>
                 <div className="font-mono text-[10px] space-y-2 leading-tight">
-                  <p className="text-blue-400">{">>"} buffer_input</p>
-                  <p className="text-white/40">
-                    User:{" "}
-                    <span className="text-white/80">
-                      {formState.name || "anonymous"}
-                    </span>
-                  </p>
-                  <p className="text-white/40">
-                    Size:{" "}
-                    <span className="text-white/80">
-                      {formState.message.length} bytes
-                    </span>
+                  <p className="text-blue-400 font-semibold">• Full-Time Engineering Roles</p>
+                  <p className="text-white/80">• Contract & Advisory Projects</p>
+                  <p className="text-white/40 pt-1 border-t border-white/10">
+                    Response: <span className="text-white/80">Within 24 Hours</span>
                   </p>
                 </div>
               </div>
 
-              {/* Main Macbook-style Window */}
+              {/* Main Window */}
               <div className="contact-window bg-white dark:bg-[#0A0A0A] border border-gray-200 dark:border-white/10 rounded-2xl shadow-2xl overflow-hidden">
-                {/* Macbook Header */}
+                {/* Header Bar */}
                 <div className="flex items-center justify-between px-5 py-4 border-b border-gray-100 dark:border-white/5 bg-gray-50/50 dark:bg-white/[0.02]">
                   <div className="flex gap-2">
                     <div className="w-3 h-3 rounded-full bg-[#FF5F56] border border-black/10" />
                     <div className="w-3 h-3 rounded-full bg-[#FFBD2E] border border-black/10" />
                     <div className="w-3 h-3 rounded-full bg-[#27C93F] border border-black/10" />
                   </div>
-                  <span className="text-[10px] font-mono text-gray-400 dark:text-white/20 uppercase tracking-[0.2em]">
-                    secure_message_v2.sh
+                  <span className="text-[10px] font-mono text-gray-400 dark:text-white/30 uppercase tracking-[0.2em]">
+                    direct_inquiry_channel
                   </span>
-                  <div className="w-12" /> {/* Spacer for symmetry */}
+                  <div className="w-12" />
                 </div>
 
                 {/* Form Body */}
                 <form onSubmit={handleSubmit} className="p-5 sm:p-6 md:p-12 space-y-6 md:space-y-8">
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-8">
                     <div className="space-y-2">
-                      <label className="text-[10px] font-mono text-gray-500 dark:text-white/30 uppercase tracking-widest ml-1">
-                        Identity
+                      <label className="text-[10px] font-mono text-gray-500 dark:text-white/40 uppercase tracking-widest ml-1 font-semibold">
+                        Your Name
                       </label>
                       <input
                         type="text"
@@ -162,13 +154,13 @@ export default function ContactSection() {
                         onChange={(e) =>
                           setFormState({ ...formState, name: e.target.value })
                         }
-                        placeholder="Your Name"
-                        className="w-full bg-gray-50 dark:bg-white/5 border border-gray-200 dark:border-white/10 rounded-xl px-5 py-4 focus:outline-none focus:border-blue-500/50 focus:bg-white/10 transition-all placeholder:text-gray-400 dark:placeholder:text-white/10 text-gray-900 dark:text-white"
+                        placeholder="e.g. Sarah Jenkins"
+                        className="w-full bg-gray-50 dark:bg-white/5 border border-gray-200 dark:border-white/10 rounded-xl px-5 py-4 focus:outline-none focus:border-blue-500/50 focus:bg-white/10 transition-all placeholder:text-gray-400 dark:placeholder:text-white/20 text-gray-900 dark:text-white"
                       />
                     </div>
                     <div className="space-y-2">
-                      <label className="text-[10px] font-mono text-gray-500 dark:text-white/30 uppercase tracking-widest ml-1">
-                        Endpoint
+                      <label className="text-[10px] font-mono text-gray-500 dark:text-white/40 uppercase tracking-widest ml-1 font-semibold">
+                        Email Address
                       </label>
                       <input
                         type="email"
@@ -177,15 +169,15 @@ export default function ContactSection() {
                         onChange={(e) =>
                           setFormState({ ...formState, email: e.target.value })
                         }
-                        placeholder="Email Address"
-                        className="w-full bg-gray-50 dark:bg-white/5 border border-gray-200 dark:border-white/10 rounded-xl px-5 py-4 focus:outline-none focus:border-blue-500/50 focus:bg-white/10 transition-all placeholder:text-gray-400 dark:placeholder:text-white/10 text-gray-900 dark:text-white"
+                        placeholder="e.g. sarah@company.com"
+                        className="w-full bg-gray-50 dark:bg-white/5 border border-gray-200 dark:border-white/10 rounded-xl px-5 py-4 focus:outline-none focus:border-blue-500/50 focus:bg-white/10 transition-all placeholder:text-gray-400 dark:placeholder:text-white/20 text-gray-900 dark:text-white"
                       />
                     </div>
                   </div>
 
                   <div className="space-y-2">
-                    <label className="text-[10px] font-mono text-gray-500 dark:text-white/30 uppercase tracking-widest ml-1">
-                      Payload
+                    <label className="text-[10px] font-mono text-gray-500 dark:text-white/40 uppercase tracking-widest ml-1 font-semibold">
+                      Project or Role Details
                     </label>
                     <textarea
                       required
@@ -194,8 +186,8 @@ export default function ContactSection() {
                       onChange={(e) =>
                         setFormState({ ...formState, message: e.target.value })
                       }
-                      placeholder="Tell me about your project..."
-                      className="w-full bg-gray-50 dark:bg-white/5 border border-gray-200 dark:border-white/10 rounded-xl px-5 py-4 focus:outline-none focus:border-blue-500/50 focus:bg-white/10 transition-all placeholder:text-gray-400 dark:placeholder:text-white/10 resize-none text-gray-900 dark:text-white"
+                      placeholder="Tell me about your project, full-time role, or automation needs..."
+                      className="w-full bg-gray-50 dark:bg-white/5 border border-gray-200 dark:border-white/10 rounded-xl px-5 py-4 focus:outline-none focus:border-blue-500/50 focus:bg-white/10 transition-all placeholder:text-gray-400 dark:placeholder:text-white/20 resize-none text-gray-900 dark:text-white"
                     />
                   </div>
 
@@ -203,8 +195,7 @@ export default function ContactSection() {
                     type="submit"
                     className="w-full py-5 bg-gray-900 dark:bg-white text-white dark:text-black font-black uppercase tracking-[0.2em] text-[10px] rounded-xl hover:bg-blue-600 dark:hover:bg-blue-400 hover:text-white transition-all active:scale-[0.98] flex items-center justify-center gap-3"
                   >
-                    Execute Transmission
-                    {/* <span className="text-base">⚡</span> */}
+                    Send Message
                   </button>
                 </form>
               </div>

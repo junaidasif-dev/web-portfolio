@@ -156,9 +156,9 @@ const Footer = () => {
                 {time.toLocaleTimeString()}
               </p>
               <p>
-                Architecting production multi-agent systems, RAG pipelines, and enterprise automations.
+                <span className="text-emerald-400 font-semibold">● Open to Opportunities:</span> Full-Time Roles, Contracts & Advisory
                 <br />
-                ////////////////////////{" "}
+                Architecting Production AI Systems & Enterprise Automations
               </p>
             </div>
           </div>

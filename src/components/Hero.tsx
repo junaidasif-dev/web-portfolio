@@ -203,22 +203,20 @@ export default function ScrollytellingHero() {
           <div className="flex items-center gap-3">
             <span className="w-8 h-px bg-blue-500" />
             <span className="text-blue-600 dark:text-blue-400 font-mono text-[10px] sm:text-xs uppercase tracking-[0.3em] md:tracking-[0.5em]">
-              AI & Automation Engineer
+              AI Systems Architect & Automation Engineer
             </span>
           </div>
           <h1 className="text-5xl sm:text-6xl md:text-9xl font-black leading-[0.9] md:leading-[0.85] tracking-tighter uppercase">
             Your Operations <br />
             <span className="text-gray-400 dark:text-white/20">On Autopilot</span>
           </h1>
-          <p className="text-gray-700 dark:text-white/60 font-light text-base sm:text-lg md:text-xl max-w-lg leading-relaxed">
-            I architect AI agents and automation systems that handle recruiting,
-            sales outreach, and business operations — so your team focuses on
-            what actually moves the needle.
+          <p className="text-gray-700 dark:text-white/60 font-light text-base sm:text-lg md:text-xl max-w-xl leading-relaxed">
+            I architect autonomous AI agents, enterprise RAG knowledge engines, and production automations that streamline recruiting, sales outreach, and business operations — saving organizations hundreds of manual hours.
           </p>
           <div className="pt-3 md:pt-4 flex items-center gap-3 md:gap-4 text-[9px] sm:text-[10px] font-mono text-gray-500 dark:text-white/30 uppercase tracking-wider md:tracking-widest">
-            <span>Agent Deployment</span>
+            <span>Agent Architecture</span>
             <div className="w-12 h-px bg-gray-200 dark:bg-white/10" />
-            <span>Step 01 // AI_Agent_Architecture</span>
+            <span>01 // Enterprise AI Systems</span>
           </div>
         </div>
       </section>
