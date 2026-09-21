@@ -30,6 +30,7 @@ A modern, interactive portfolio showcasing production work in **AI Agents, Multi
 
 ## 📬 Contact & Platforms
 
+* **Live Portfolio:** [https://junaidasif-portfolio.vercel.app/](https://junaidasif-portfolio.vercel.app/)
 * **Email:** junaidasifdev@gmail.com
 * **Phone / WhatsApp:** +92 317 5724870
 * **GitHub:** [https://github.com/junaidasif-dev](https://github.com/junaidasif-dev)
