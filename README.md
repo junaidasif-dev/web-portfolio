@@ -32,6 +32,7 @@ A modern, interactive portfolio showcasing production work in **AI Agents, Multi
 
 * **Live Portfolio:** [https://junaidasif-portfolio.vercel.app/](https://junaidasif-portfolio.vercel.app/)
 * **Location:** Bergamo, Italy (UTC +1 / CET)
+* **Languages:** English (Fluent), Italian (Actively Learning), Urdu (Native)
 * **Email:** junaidasifdev@gmail.com
 * **Phone / WhatsApp:** +39 350 077 0227
 * **GitHub:** [https://github.com/junaidasif-dev](https://github.com/junaidasif-dev)

@@ -237,13 +237,17 @@ export default function ContactSection() {
 
               <div className="space-y-3">
                 <h4 className="text-[10px] font-mono text-gray-500 dark:text-white/20 uppercase tracking-widest">
-                  Location
+                  Location & Languages
                 </h4>
                 <p className="text-sm text-gray-600 dark:text-white/60 leading-relaxed">
                   Bergamo, Italy
                   <br />
                   <span className="text-[10px] opacity-50 uppercase tracking-tighter">
                     UTC +1 / CET (Global Remote)
+                  </span>
+                  <br />
+                  <span className="text-xs text-gray-500 dark:text-white/40 mt-1 inline-block">
+                    English (Fluent) • Italian (Learning)
                   </span>
                 </p>
               </div>
