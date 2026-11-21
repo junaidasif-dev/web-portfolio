@@ -19,7 +19,7 @@ const experiences: Experience[] = [
     id: 1,
     role: "AI & Automation Engineer",
     company: "Axcess TMS",
-    period: "Jan 2026 – Present",
+    period: "Jan 2026 – Oct 2026",
     location: "Calgary, Alberta, Canada (Remote)",
     description: "Architecting multi-agent sales automation pipelines, CRM/ATS recruitment AI engines, and context-aware RAG assistants.",
     responsibilities: [
