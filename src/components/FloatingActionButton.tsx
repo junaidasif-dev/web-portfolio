@@ -52,7 +52,7 @@ const FloatingActionButton = () => {
           "Hi Junaid, I came across your portfolio and would like to connect.",
         );
         window.open(
-          `https://wa.me/923175724870?text=${message}`,
+          `https://wa.me/393500770227?text=${message}`,
           "_blank",
           "noopener,noreferrer",
         );

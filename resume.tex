@@ -1,0 +1,141 @@
+%-------------------------
+% Resume in LaTeX - Junaid Asif
+%------------------------
+\documentclass[letterpaper,10.5pt]{article}
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{multicol}
+\usepackage{CormorantGaramond}
+\usepackage{charter}
+\input{glyphtounicode}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+% Margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+% Section formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+\pdfgentounicode=1
+% Custom commands
+\newcommand{\resumeItem}[1]{\item \small{#1}}
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=0.15in, label=\textbullet]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+%----------HEADING----------
+\begin{center}
+    {\Huge \textbf{JUNAID ASIF}} \\ \vspace{4pt}
+    Bergamo, Italy \\ 
+    \href{mailto:junaidasifdev@gmail.com}{junaidasifdev@gmail.com} ~|~ +39 350 077 0227 \\ 
+    \href{https://junaidasif-portfolio.vercel.app}{junaidasif-portfolio.vercel.app} ~|~ \href{https://www.linkedin.com/in/junaidasifdev}{linkedin.com/in/junaidasifdev} ~|~ \href{https://github.com/junaidasif-dev}{github.com/junaidasif-dev}
+\end{center}
+
+%-----------SUMMARY-----------
+\section{Professional Summary}
+Results-driven Agentic AI \& Automation Engineer with 1.5+ years of hands-on experience designing and deploying production-ready multi-agent systems, context-aware RAG assistants, and cross-platform workflow automations. Proven expertise in multi-agent orchestration using n8n and LangChain to build scalable AI pipelines, integrate recruiter CRM \& ATS systems, eliminate 40+ hours/week of manual overhead, and optimize enterprise operations with 99.9\% uptime reliability.
+%-----------SKILLS-----------
+\section{Skills}
+\begin{itemize}[leftmargin=0.15in, label={}]
+    \item \textbf{Agentic AI \& Orchestration:} Multi-Agent Systems, Workflow Orchestration (n8n, Make.com), LangChain, LangGraph, RAG, LLMs, Vector Databases, Semantic Search, Hugging Face, NLP
+    \item \textbf{Programming \& Data:} Python, SQL, Fast APIs, REST APIs, Webhooks, Git, GitHub, PyTorch, TensorFlow, Scikit-learn, Pandas, NumPy, Data Parsing \& Transformation
+    \item \textbf{Integrations \& Ecosystem:} StaffHive CRM/ATS, Notion API, Google Sheets API, Slack API, Mattermost, QUO API, Streamlit
+\end{itemize}
+%-----------EXPERIENCE-----------
+\section{Experience}
+\resumeSubHeadingListStart
+  \resumeSubheading
+    {AI \& Automation Engineer – Axcess TMS}{Jan 2026 – Oct 2026}
+    {Remote}{Calgary, Alberta, Canada}
+    \resumeItemListStart
+        \resumeItem{Architected autonomous multi-agent sales outreach and CRM pipelines in n8n, scaling outreach to 500+ leads/week and reducing manual sales overhead by over 80\%.}
+        \resumeItem{Engineered AI recruitment core for StaffHive CRM/ATS, automating SMS pre-screening interviews via QUO API and saving 40+ hours/week of manual phone screening with zero dropped applicants.}
+        \resumeItem{Collaborated directly with non-technical stakeholders (recruiters and HR directors) to translate recruitment operational bottlenecks into automated, high-throughput AI pipelines.}
+        \resumeItem{Designed a context-aware RAG assistant with dynamic SQL query generation and pgvector search, cutting candidate database lookup latency to under 3 seconds (90\%+ reduction).}
+        \resumeItem{Standardized event-driven architecture, SHA-256 message deduplication, and automated Mattermost alert systems, sustaining 99.9\% uptime across production workflows.}
+    \resumeItemListEnd
+  \resumeSubheading
+    {AI Automation Engineer – Buildables}{Jul 2025 – Present}
+    {Remote}{Pakistan}
+    \resumeItemListStart
+        \resumeItem{Architected and deployed 13+ advanced n8n production workflows integrating Notion, Google Sheets, Slack, and PostgreSQL across 5+ core tools, automating 100\% of repetitive operations.}
+        \resumeItem{Designed automated multi-pathway candidate evaluation and lifecycle orchestration systems in n8n, processing 100+ monthly applicants across 6 distinct educational programs.}
+        \resumeItem{Built automated reviewer approval routing and digital certificate generation engines, cutting candidate onboarding turnaround time from 3 days to under 15 minutes.}
+        \resumeItem{\href{https://github.com/junaidasif-dev/n8n-portfolio}{\textbf{Portfolio Repository}} — Showcases the extensive 13+ production \textbf{n8n} automation workflows and architectural integrations built for this role.}
+    \resumeItemListEnd
+  \resumeSubheading
+    {AI Intern – Siber Koza (NASTP)}{Apr 2025 – Jun 2025}
+    {Artificial Intelligence Department}{Rawalpindi, Pakistan}
+    \resumeItemListStart
+        \resumeItem{Developed a real-time voice AI assistant utilizing Whisper STT/TTS, LangChain, and OpenAI API, achieving 92\%+ intent recognition accuracy and reducing customer order turnaround by 40\%.}
+        \resumeItem{Built conversational LLM agents featuring sliding-window session memory and semantic cosine retrieval, supporting seamless 10+ turn context preservation.}
+        \resumeItem{Engineered an end-to-end NLP classification pipeline leveraging BERT embeddings and LSTM networks, parsing unstructured documents and JSON payloads with sub-200ms latency.}
+    \resumeItemListEnd
+\resumeSubHeadingListEnd
+%-----------PROJECTS-----------
+\section{Projects}
+\resumeSubHeadingListStart
+  \resumeSubheading
+    {AI Voice Assistant for Restaurant}{}{LangChain, RAG, Python, OpenAI API}{}
+    \resumeItemListStart
+        \resumeItem{Built a context-aware voice assistant utilizing Whisper STT/TTS and LangChain to process voice orders, decreasing transaction handling time by 40\%.}
+        \resumeItem{Enhanced customer interaction through dynamic response generation and knowledge-based queries.}
+    \resumeItemListEnd
+  \resumeSubheading
+    {AI Knowledge Assistant – RAG Chatbot}{}{LangChain, Groq API, Pinecone, Streamlit}{}
+    \resumeItemListStart
+        \resumeItem{Developed a responsive RAG chatbot answering complex ML/AI queries, using Groq API (Llama 3.1), Pinecone vector database for semantic retrieval, and Streamlit for the user interface.}
+        \resumeItem{Built Streamlit UI with session memory, prompt control, and context awareness.}
+        \resumeItem{\href{https://ai-knowledge-assist.streamlit.app/}{\textbf{Live Demo}} — deployed version demonstrating retrieval and dynamic context understanding.}
+    \resumeItemListEnd
+\resumeSubHeadingListEnd
+%-----------EDUCATION-----------
+\section{Education}
+\resumeSubHeadingListStart
+  \resumeSubheading
+    {National University of Modern Languages (NUML)}{2022 – 2026}
+    {BS in Artificial Intelligence}{Islamabad, Pakistan}
+    \resumeItemListStart
+      \resumeItem{Graduated with 3.1 CGPA.}
+      \resumeItem{Serving as \textbf{Lead at Google Developer Groups on Campus (GDG on Campus)} — organizing tech events, fostering collaboration, and developing leadership and communication skills.}
+    \resumeItemListEnd
+\resumeSubHeadingListEnd
+%-----------CERTIFICATES-----------
+\section{Certificates}
+\resumeItemListStart
+    \resumeItem{\href{https://www.credly.com/badges/f9f24684-43a5-44b3-bea7-18a2e0e5a964/linked_in_profile}{\textbf{Google AI Essentials Specialization}} -- \textit{Coursera} \\
+    (Includes: \href{https://www.coursera.org/account/accomplishments/verify/5FXXDEERNVVX}{Introduction to AI}, \href{https://www.coursera.org/account/accomplishments/verify/EW1GFDRKYZSX}{Maximize Productivity with AI}, \href{https://www.coursera.org/account/accomplishments/verify/6GOSUBVQE2NW}{Discover the Art of Prompting}, \href{https://www.coursera.org/account/accomplishments/verify/3C6HLXF1PPDD}{Use AI Responsibly}, \href{https://www.coursera.org/account/accomplishments/verify/D9GU8GAOJ66Y}{Stay Ahead of the AI Curve})}
+    \resumeItem{\href{https://www.hackerrank.com/certificates/398a9b1cc707}{\textbf{SQL Basics}} -- \textit{HackerRank}}
+    \resumeItem{\href{https://www.hackerrank.com/certificates/02a29a077a6b}{\textbf{SQL Intermediate}} -- \textit{HackerRank}}
+\resumeItemListEnd
+\end{document}

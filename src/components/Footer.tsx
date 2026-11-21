@@ -129,15 +129,15 @@ const Footer = () => {
                 </li>
                 <li>
                   <a
-                    href="tel:+923175724870"
+                    href="tel:+393500770227"
                     className="copyable"
                     title="Click to copy phone"
                     onClick={(e) => {
                       e.preventDefault();
-                      handleCopy("+92 317 5724870");
+                      handleCopy("+39 350 077 0227");
                     }}
                   >
-                    +92 317 5724870
+                    +39 350 077 0227
                   </a>
                 </li>
               </ul>
@@ -151,9 +151,9 @@ const Footer = () => {
                 &copy; {new Date().getFullYear()} Junaid Asif. <br /> All rights reserved.
               </p>
               <p>
-                Islamabad, PK
+                Bergamo, Italy
                 <br />
-                {time.toLocaleTimeString()}
+                {time.toLocaleTimeString([], { timeZone: "Europe/Rome" })}
               </p>
               <p>
                 <span className="text-emerald-400 font-semibold">● Open to Opportunities:</span> Full-Time Roles, Contracts & Advisory

@@ -23,10 +23,10 @@ const experiences: Experience[] = [
     location: "Calgary, Alberta, Canada (Remote)",
     description: "Architecting multi-agent sales automation pipelines, CRM/ATS recruitment AI engines, and context-aware RAG assistants.",
     responsibilities: [
-      "Architected multi-agent sales automation & lead outreach pipeline in n8n, reducing manual overhead by 80%",
-      "Engineered AI recruitment core for StaffHive CRM/ATS, implementing SMS screening via QUO API & Mattermost reporting",
-      "Designed context-aware RAG assistant with dynamic SQL query generation for instant recruiter ATS searching",
-      "Established 99.9% uptime error-handling, fallback, and alert systems for production workflows"
+      "Architected multi-agent sales outreach & CRM pipeline in n8n, scaling outreach to 500+ leads/week and reducing manual overhead by 80%+",
+      "Engineered AI recruitment core for StaffHive CRM/ATS, automating SMS screening interviews via QUO API and saving 40+ hours/week with zero dropped applicants",
+      "Designed context-aware RAG assistant with dynamic SQL query generation & pgvector search, cutting candidate database lookup latency to under 3 seconds",
+      "Established production-grade SHA-256 deduplication and fallback alert systems in Mattermost, sustaining 99.9% uptime for live automated pipelines"
     ],
     projects: [
       "Axcess Recruitment AI Platform",
@@ -44,9 +44,9 @@ const experiences: Experience[] = [
     location: "Pakistan (Remote)",
     description: "Architecting cross-platform automation pipelines, onboarding systems, and candidate lifecycle orchestration.",
     responsibilities: [
-      "Architected end-to-end automation pipelines integrating Notion, Google Sheets, and Slack APIs",
-      "Designed multi-pathway candidate evaluation and lifecycle orchestration systems in n8n for 6 educational programs",
-      "Deployed 13+ advanced n8n automation workflows featuring complex branching, real-time sync, and error handling for 100+ applicants monthly"
+      "Architected and deployed 13+ production n8n automation workflows integrating Notion, Google Sheets, Slack, and PostgreSQL across 5+ core tools",
+      "Designed multi-pathway candidate evaluation & lifecycle orchestration in n8n, handling 100+ applicants monthly across 6 educational programs",
+      "Automated digital certificate generation and multi-step reviewer approval gates, slashing onboarding turnaround time from 3 days to under 15 minutes"
     ],
     projects: [
       "Buildables n8n Automation Suite (13+ Workflows)",
@@ -63,9 +63,9 @@ const experiences: Experience[] = [
     location: "Rawalpindi, Pakistan (On-site)",
     description: "Developed voice-based AI assistants and NLP text classification pipelines at the National Aerospace Science & Technology Park.",
     responsibilities: [
-      "Developed real-time voice customer assistant at NASTP using LangChain, OpenAI API, and RAG architectures",
-      "Built conversational LLM agents featuring robust session memory, semantic similarity, and multi-turn dialog tracking",
-      "Implemented NLP pipeline utilizing BERT embeddings and LSTM networks for unstructured text classification & JSON data parsing"
+      "Developed real-time voice customer assistant at NASTP using Whisper, LangChain & OpenAI API, achieving 92%+ intent recognition accuracy and 40% faster transaction handling",
+      "Built conversational LLM agents featuring sliding-window session memory and semantic retrieval, maintaining coherent multi-turn context across 10+ turns",
+      "Implemented NLP classification pipeline utilizing BERT embeddings & LSTM networks, processing unstructured text with sub-200ms inference latency"
     ],
     projects: [
       "NASTP Real-Time Voice AI Assistant",

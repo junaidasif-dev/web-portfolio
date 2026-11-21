@@ -240,10 +240,10 @@ export default function ContactSection() {
                   Location
                 </h4>
                 <p className="text-sm text-gray-600 dark:text-white/60 leading-relaxed">
-                  Islamabad, Pakistan
+                  Bergamo, Italy
                   <br />
                   <span className="text-[10px] opacity-50 uppercase tracking-tighter">
-                    UTC +5 (Global Remote)
+                    UTC +1 / CET (Global Remote)
                   </span>
                 </p>
               </div>
@@ -255,7 +255,7 @@ export default function ContactSection() {
                 <p className="text-sm text-gray-600 dark:text-white/60">
                   junaidasifdev@gmail.com
                 </p>
-                <p className="text-sm text-gray-600 dark:text-white/60">+92 317 5724870</p>
+                <p className="text-sm text-gray-600 dark:text-white/60">+39 350 077 0227</p>
               </div>
 
               <div className="space-y-3">

@@ -31,8 +31,9 @@ A modern, interactive portfolio showcasing production work in **AI Agents, Multi
 ## 📬 Contact & Platforms
 
 * **Live Portfolio:** [https://junaidasif-portfolio.vercel.app/](https://junaidasif-portfolio.vercel.app/)
+* **Location:** Bergamo, Italy (UTC +1 / CET)
 * **Email:** junaidasifdev@gmail.com
-* **Phone / WhatsApp:** +92 317 5724870
+* **Phone / WhatsApp:** +39 350 077 0227
 * **GitHub:** [https://github.com/junaidasif-dev](https://github.com/junaidasif-dev)
 * **LinkedIn:** [https://www.linkedin.com/in/junaidasifdev/](https://www.linkedin.com/in/junaidasifdev/)
 * **Upwork:** [https://www.upwork.com/freelancers/~018d80300a5644d28f?mp_source=share](https://www.upwork.com/freelancers/~018d80300a5644d28f?mp_source=share)
